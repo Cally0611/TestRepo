@@ -1,33 +1,37 @@
-# 📌 Project Title
+# Foobar
 
-> Short one-line description of what your project does.
+Foobar is a Python library for dealing with word pluralization.
 
-## 🚀 Features
-- ✨ Feature 1 (e.g., User authentication)
-- ⚡ Feature 2 (e.g., Fast performance)
-- 🔒 Feature 3 (e.g., Secure API)
+## Installation
 
-## 📸 Screenshots (Optional)
-Add images or GIFs to showcase your project.
-
-![Screenshot](./assets/screenshot.png)
-
-## 🛠️ Tech Stack
-- Language: (e.g., JavaScript, Python)
-- Framework: (e.g., React, Django)
-- Database: (e.g., MongoDB, MySQL)
-
-## 📦 Installation
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/project-name.git
+pip install foobar
+```
 
-# Navigate into the project
-cd project-name
+## Usage
 
-```bash
-# Run the project
-npm start
-# Install dependencies
-npm install
+```python
+import foobar
+
+# returns 'words'
+foobar.pluralize('word')
+
+# returns 'geese'
+foobar.pluralize('goose')
+
+# returns 'phenomenon'
+foobar.singularize('phenomena')
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
