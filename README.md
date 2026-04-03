@@ -26,5 +26,8 @@ git clone https://github.com/your-username/project-name.git
 # Navigate into the project
 cd project-name
 
+```bash
+# Run the project
+npm start
 # Install dependencies
 npm install
